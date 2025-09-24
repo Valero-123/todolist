@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Список задач</title>
+    <link rel="stylesheet" href="./CSS/Normalize.css"> <!-- CSS-файл -->
+    <link rel="stylesheet" href="./CSS/styles.css"> <!-- CSS-файл -->
+</head>
+<body>
+    <header>
+        <h1>Список задач</h1>
+    </header>
+<main>
+
+    <div class="newtask">
+        <h2 class="newtaskHeader">Новая задача</h2>
+        <div class="addnewtask">
+            <input class="inputtask" type="text" placeholder="Название задачи">
+            <button class="addtask">+ Добавить</button>
+        </div>
+    </div>
+
+    <div class = "tasks">
+        <div class="backLog">
+            <h3 class = "headerBackLog">Бэклог</h3>
+            <div class="backLogTasks">
+                <div class="backLogTask">
+                    Выучить JS
+                </div>
+                <div class="backLogTask">
+                    Выучить React
+                </div>
+                <div class="backLogTask">
+                    Сделать домашку
+                </div>
+            </div>   
+        </div>
+
+        <div class="inProcess">
+            <h3 class="headerInProcess">В процессе</h3>
+            <div class="inProcessTasks">
+                <div class="inProcessTask">
+                    Выпить смузи
+                </div>
+                <div class="inProcessTask">
+                    Попить воды
+                </div>
+            </div>
+        </div>
+        
+        <div class="ready">
+            <h3 class="headerready">Готово</h3>
+            <div class="readyTasks">
+                <div class="readyTask">
+                    Позвонить маме
+                </div>
+                 <div class="readyTask">
+                    Погладить кота
+                </div>
+            </div>
+        </div>
+
+        <div class="trash">
+            <h3 class="headertrash">Корзина</h3>
+            <div class="trashTasks">
+                <div class="trashTask">
+                    Сходить погулять
+                </div>
+                 <div class="trashTask">
+                    Прочить Войну и Мир
+                </div>
+            <button class = "trashbut">✘ Очистить</button> 
+        </div> 
+
+    </div>       
+</main>
+
+</body>
+</html>
