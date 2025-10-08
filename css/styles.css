@@ -22,6 +22,7 @@ main {
     justify-content: start;
     border-radius: 20px;
     flex-flow: column;
+    margin-bottom: 5px;
 }
 
 .newtaskHeader {
@@ -202,4 +203,5 @@ main {
     cursor: pointer;
     background-color: #be131e;
 }
+
 
