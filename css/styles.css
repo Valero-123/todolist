@@ -22,7 +22,6 @@ main {
     justify-content: start;
     border-radius: 20px;
     flex-flow: column;
-    margin-bottom: 5px;
 }
 
 .newtaskHeader {
@@ -96,6 +95,7 @@ main {
     background-color: white;
     border-radius: 6px;
     border-left-color:#b0a4ac;
+    margin-bottom: 5px;
 }
 
 
@@ -203,5 +203,6 @@ main {
     cursor: pointer;
     background-color: #be131e;
 }
+
 
 
