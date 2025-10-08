@@ -15,7 +15,7 @@ main {
     padding: 40px;
 }
 
-.newtask {
+.addtask {
     background-color:  #ffffff;
     color: rgb(0, 0, 0); 
     display: inline-flex;
@@ -45,7 +45,7 @@ main {
     opacity: 0.4;
 }
 
-.addtask {
+.addtaskbut {
     background-color:#888aed;
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
@@ -55,7 +55,7 @@ main {
     color:  rgb(255, 255, 255); 
     margin-right: 30px;
 }
-.addtask:hover {
+.addtaskbut:hover {
     cursor: pointer;
     background-color: #1418e8;
 }
@@ -202,3 +202,4 @@ main {
     cursor: pointer;
     background-color: #be131e;
 }
+
