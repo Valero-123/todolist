@@ -5,9 +5,11 @@ body {
 
 header {
     background-color: #888aed;
-    font-size: 25px;
-    color: white;
-    font-weight: 700;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    height: auto;
 }
 
 header h1 {
@@ -158,4 +160,5 @@ main {
 
 .clearBtn:active {
     transform: scale(0.95);
+
 }
