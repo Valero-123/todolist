@@ -1,0 +1,163 @@
+body {
+    font-family: 'Verdana';
+    background-color: rgb(247, 230, 248); 
+}
+
+header {
+    background-color: #888aed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    height: auto;
+}
+
+header h1 {
+    padding: 15px 30px;
+}
+
+main {
+    padding: 40px;
+}
+
+.newTask {
+    background-color:  #ffffff;
+    color: rgb(0, 0, 0); 
+    display: inline-flex;
+    justify-content: start;
+    border-radius: 20px;
+    flex-flow: column;
+}
+
+.newTaskHeader {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.addNewTask {
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.inputTask {
+    padding: 13px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    opacity: 0.4;
+}
+
+.addTask {
+    background-color:#888aed;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-weight: 700;
+    font-size: 15px;
+    color:  rgb(255, 255, 255); 
+    margin-right: 30px;
+}
+
+.addTask:hover {
+    cursor: pointer;
+    background-color: #1418e8;
+}
+
+.addTask:active {
+    transform: scale(0.95);
+}
+
+.addTask::first-letter {
+    font-size: 20px;
+}
+
+.tasks {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskList {
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.taskHeader {
+    width: max-content;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.backLog .taskHeader {
+    background-color: #b0a4ac;
+    color: rgb(85, 77, 85); 
+}
+
+.inProcess .taskHeader {
+    background-color:  #D6E7FF;
+    color: #204a85;
+}
+
+
+.ready .taskHeader {
+    background-color:#a1e3a2;
+    color: #1d9f1f;
+}
+
+
+.trash .taskHeader {
+    background-color: #d0989b;
+    color: #c3262e;
+}
+
+.task {
+    border-left: 5px solid;
+    padding: 12px 8px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.backLog .task {
+    border-left-color: #b0a4ac;
+}
+
+.inProcess .task {
+    border-left-color: #D6E7FF;
+}
+
+.ready .task {
+    border-left-color: #a1e3a2;
+}
+
+.trash .task {
+    border-left-color: #d0989b;
+}
+
+.clearBtn {
+    margin-top: 15px;
+    background-color: #C9666C;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 50px 15px 50px;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+
+.clearBtn:hover {
+    cursor: pointer;
+    background-color:  #be131e;
+}
+
+.clearBtn:active {
+    transform: scale(0.95);
+}
