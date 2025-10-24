@@ -1,15 +1,5 @@
 export const tasks = [
     {
-        id:'1',
-        title:'Выспаться',
-        status:'backLog',
-    },
-    {
-        id:'2',
-        title:'Выучить js',
-        status:'backLog',
-    },
-    {
         id:'3',
         title:'Сделать РПИ',
         status:'inProcess',
@@ -29,5 +19,6 @@ export const tasks = [
         title:'Востановить режим',
         status:'trash'
     }
+
 
 ]
