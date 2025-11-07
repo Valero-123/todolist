@@ -11,7 +11,7 @@ export default class TasksModel extends Observable {
         this.#tasksApiService = tasksApiService;
 
         this.#tasksApiService.tasks.then((tasks) => {
-            console.log(tasks);
+            
         })
     }
 
@@ -95,4 +95,5 @@ export default class TasksModel extends Observable {
             }
         }
     }
+
 }
